@@ -182,6 +182,46 @@ color: white;
 
 }
 
+@media only screen and (max-width: 520px) {
+
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .logo{
+        margin-bottom: 30px;
+    }
+
+    .menu nav ul li+li{
+        margin-left: 15px;
+    }
+
+    .menu nav ul li a{
+        padding: 5px;
+    }
+
+    .menuapresentacao h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .menuapresentacao h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .menuapresentacao p{
+        font-size: 18px;
+        margin: 0px 30px 40px 0px;
+    }
+    
+    .menuapresentacao a{
+        font-size: 18px;
+    }
+
+}
+
 /*FIM DE CONFIGURAÇOES DO MEU HEADER*/
 
 /*INICIO DE CONFIGURAÇOES DO MEU HEADER*/
